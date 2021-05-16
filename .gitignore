@@ -1,0 +1,5 @@
+/ Add files and folders to ignore
+.idea
+*xml
+*iml
+.class
