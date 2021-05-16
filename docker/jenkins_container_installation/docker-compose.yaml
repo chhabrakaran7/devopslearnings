@@ -1,0 +1,22 @@
+## Docker compose file for JENKINS server ##
+
+# This is a sample docker compose file for installing jenkins container
+# It is a definition where we define what services we want to spin
+
+# Copyright (C) Karan Chhabra [16/5/2021]
+
+version: '3'                                          #Docker compose version
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins                            #Image name of the jenkins container that we pulled from docker repo, Use "docker images"
+    privileged: true
+    user: root
+    ports:
+      - "8080:8080"                                   #Host jenkins on 8080 and map it internally to container on port 8080
+    volumes:
+      - /var/jenkins/jenkins_data:/var/jenkins_home   #Save all files written under "/var/jenkins_home" to "/root/jenkins/jenkins_home"
+    networks:
+      - net
+networks:                                             #Bind container to the network defined here "net"
+  net:
