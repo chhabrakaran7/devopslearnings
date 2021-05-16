@@ -2,6 +2,8 @@
 
 This repository is dedicated for learnings done during training for DevOps.
 
+NOTE: This repository is a work in progress, updates will be added frequently. 
+
 ## **Development Environment**
 
 `Virtualization platform: VMWare Workstation 16 PRO`
