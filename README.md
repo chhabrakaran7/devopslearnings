@@ -29,7 +29,7 @@ This repository is dedicated for learnings done during training for DevOps.
 
 #### Installation/Decommissioning scripts:
 1. **Install docker script**: `devopslearnings/docker_installtion/install_docker.sh`
-2. **Install jenkins container application**: `devopslearnings/jnekins_container_installation/docker-compose.yaml`
+2. **Install jenkins container application**: `devopslearnings/jenkins/jenkins_container_installation/docker-compose.yaml`
 3. **Pull any docker image**: `devopslearnings/docker/pull_specific_dockerImage.sh`
 
 ## **Jenkins**
@@ -40,4 +40,4 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
 
 1. **Create a dummy directory and a file with data on the container.**
 
-    **Location**: `devopslearnings/jenkins_jobs/my-first-job`
+    **Location**: `devopslearnings/jenkins/jenkins_jobs/my-first-job`
