@@ -2,8 +2,9 @@
 
 This repository is dedicated for learnings done during training for DevOps.
 
-NOTE: This repository is a work in progress, updates will be added frequently. 
+**NOTE:** `This repository is a work in progress, updates will be added frequently.`
 
+**NOTE:** `A word document will be added which will include all the steps and screenshots taken while performing the setup and any tasks involved in this effort.`
 ## **Development Environment**
 
 `Virtualization platform: VMWare Workstation 16 PRO`
@@ -31,11 +32,11 @@ NOTE: This repository is a work in progress, updates will be added frequently.
 2. **Install jenkins container application**: `devopslearnings/jnekins_container_installation/docker-compose.yaml`
 3. **Pull any docker image**: `devopslearnings/docker/pull_specific_dockerImage.sh`
 
-#### Jenkins jobs:
+## **Jenkins**
 Adding jenkins jobs which are created and tested over the jenkins UI created on the container.
 
    
-**Jenkins jobs added so far:**
+#### Jenkins jobs (added so far):
 
 1. **Create a dummy directory and a file with data on the container.**
 
