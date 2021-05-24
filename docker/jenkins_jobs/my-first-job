@@ -1,0 +1,15 @@
+## Basic shell script for the first jenkins job
+## Create a dummy directory and file and add contents to it.
+## Copyright (c) Karan Chhabra 23/05/2021
+## NOTE: THIS SCRIPT WILL BE EXECUTED AS A JENKINS JOB IN THE JENKINS CONTAINER
+
+# Creating a dummy jenkins playground directory
+
+play="/tmp/jenkins_playground"
+dummy_date_file="current_date.txt"
+mkdir -p $play
+
+# Add the output of current date and time on container under the dummy jenkins_playground directory
+
+echo "Current date and time is $(date)" > "$play"/"$dummy_date_file"
+

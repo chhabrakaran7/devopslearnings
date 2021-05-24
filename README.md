@@ -27,6 +27,16 @@ NOTE: This repository is a work in progress, updates will be added frequently.
 2. Setup jenkins application 
 
 #### Installation/Decommissioning scripts:
-1. **Install docker script**: devopslearnings/docker_installtion/install_docker.sh
-2. **Install jenkins container application**: devopslearnings/jnekins_container_installation/docker-compose.yaml
-3. **Pull any docker image**: devopslearnings/docker/pull_specific_dockerImage.sh
+1. **Install docker script**: `devopslearnings/docker_installtion/install_docker.sh`
+2. **Install jenkins container application**: `devopslearnings/jnekins_container_installation/docker-compose.yaml`
+3. **Pull any docker image**: `devopslearnings/docker/pull_specific_dockerImage.sh`
+
+#### Jenkins jobs:
+Adding jenkins jobs which are created and tested over the jenkins UI created on the container.
+
+   
+**Jenkins jobs added so far:**
+
+1. **Create a dummy directory and a file with data on the container.**
+
+    **Location**: `devopslearnings/jenkins_jobs/my-first-job`
