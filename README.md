@@ -38,6 +38,9 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
    
 #### Jenkins jobs (added so far):
 
-1. **Create a dummy directory and a file with data on the container.**
+1. Create a dummy directory and a file with data on the container.
 
     **Location**: `devopslearnings/jenkins/jenkins_jobs/my-first-job`
+2. Run a bash script to print full name on jenkins UI.
+    
+    **Location**: `devopslearnings/jenkins/jenkins_jobs/my-first-bash-script-for-jenkins.sh`
