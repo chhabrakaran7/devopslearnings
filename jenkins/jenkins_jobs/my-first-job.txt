@@ -1,7 +1,8 @@
 ## Basic shell script for the first jenkins job
 ## Create a dummy directory and file and add contents to it.
 ## Copyright (c) Karan Chhabra 23/05/2021
-## NOTE: THIS SCRIPT WILL BE EXECUTED AS A JENKINS JOB IN THE JENKINS CONTAINER
+
+## NOTE: Runs within the created docker container, "jenkins" in our case
 
 # Creating a dummy jenkins playground directory
 

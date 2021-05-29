@@ -43,4 +43,12 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
     **Location**: `devopslearnings/jenkins/jenkins_jobs/my-first-job`
 2. Run a bash script to print full name on jenkins UI.
     
-    **Location**: `devopslearnings/jenkins/jenkins_jobs/my-first-bash-script-for-jenkins.sh`
+   **Script Location**: `devopslearnings/jenkins/jenkins_jobs/scripts/my-first-bash-script-for-jenkins.sh`
+    
+   **Jenkins Job Location**: `devopslearnings/jenkins/jenkins_jobs/my-first-bash-script.txt`
+   
+3. Run a bash script to print title, full name on jenkins UI. [Using dynamic parameters (String and Choice)]
+
+   **Script Location**: `devopslearnings/jenkins/jenkins_jobs/scripts/my-bash-script-for-dynamicParametersInjenkins.sh`
+   
+   **Jenkins Job Location**: `devopslearnings/jenkins/jenkins_jobs/my-bash-script-for-dynamic-parameter.txt`
