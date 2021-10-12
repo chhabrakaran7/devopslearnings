@@ -1,0 +1,6 @@
+# Jenkins job to run my first bash script on my jenkins container
+
+## Created by Karan Chhabra (c) 21/10/2021
+## Syntax to run the bash script: sh -x <Location of the script on container> <First name> <Last name>
+
+sh /root/scripts/my-first-bash-script-for-jenkins.sh "Karan" "Chhabra"
