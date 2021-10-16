@@ -14,9 +14,7 @@ condition=$4
 if [ "$condition" = "true" ]; then
   #--Say hello--#
   echo "Welcome to the world of computers "$1" "$2" "$3""
-  exit 0                                                                            # exit 0 is used to denote run success
 else
-  echo "Please pass three parameters"
-  echo "Example: sh -x my-bash-script-with-boolean-value.sh "Mr." "Karan" "Chhabra""
-  exit 1                                                                            # exit 1 is used to denote run failure
+  echo "The boolean condition is set to false, Please set a correct boolean value"
+  echo "Example: sh -x my-bash-script-with-boolean-value.sh "Mr." "Karan" "Chhabra" "true""
 fi
