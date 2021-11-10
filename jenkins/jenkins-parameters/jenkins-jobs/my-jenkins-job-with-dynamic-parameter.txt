@@ -1,0 +1,10 @@
+## Jenkins job to run our bash script
+## Copyright (c) Karan Chhabra 12/10/2021
+
+## NOTE: Runs within the created docker container, "jenkins" in our case
+
+title=Mr
+firstname=Karan
+lastname=Chhabra
+
+sh ~/scripts/my-bash-script-for-dynamicParametersInjenkins.sh $title $firstname $lastname

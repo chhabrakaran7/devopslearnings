@@ -1,0 +1,40 @@
+## docker compose yaml for creating jenkins and remote-host containers ##
+##
+## Created by Karan Chhabra (c) 18/10/2021
+
+
+version: '3'
+services:
+    jenkins:                                                               ## jenkins container service
+        container_name: jenkins
+        image: jenkins/jenkins
+        privileged: true
+        user: root
+        ports:
+            - "8080:8080"
+        volumes:
+            - "$PWD/jenkins_home:/var/jenkins_home"
+        networks:
+            - net
+    remote_host:                                                           ## remote-host container service
+        container_name: remote-host
+        image: remote-host
+        privileged: true
+        user: root
+        build:
+            context: /root/jenkins-data/remote_containers/centos8
+        volumes:
+            - "$PWD/jenkins-data:/tmp/upload_backup_2_aws.sh"              ## This will copy the upload backup script
+        networks:                                                          ## to remote-host under /tmp everytime
+            - net                                                                     
+    db_host:                                                               ## mysql-db container service   
+        container_name: mysql-db
+        image: mysql:5.7
+        environment:
+            - "MYSQL_ROOT_PASSWORD=redhat"
+        volumes:
+            - "$PWD/db_data:/var/lib/mysql"
+        networks:
+            - net 
+networks:
+    net:

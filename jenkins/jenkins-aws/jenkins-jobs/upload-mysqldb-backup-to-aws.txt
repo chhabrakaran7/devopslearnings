@@ -1,0 +1,16 @@
+## This is jenkins job for upoading the mysql DB backup to AWS
+##
+## The jenkins job is parameterised
+##
+## This job requires:
+## 1. Pre-configured DB_PASSWORD, ACCESS_KEY_AWS and SECRET_AWS "secrect text values" \
+##    These secret text values are configured under the global credential manager on jenkins dashboard and \
+##    fed directly into the jenkins run
+## 2. We need to create 4 string parameters part of the jenkins job which are fed into the job \
+##    The parameters are DB_USER, DB_HOST, DB_NAME and AWS_BUCKET
+##
+## NOTE: Before running the job we need to ensure the script to upload mysql db backup \
+##       is placed under /tmp on the remote-host container
+
+
+/tmp/upload_backup_2_aws.sh $DB_USER $DB_HOST $DB_PASSWORD $DB_NAME $ACCESS_KEY_AWS $SECRET_AWS $AWS_BUCKET
