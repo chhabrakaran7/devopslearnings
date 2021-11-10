@@ -1,0 +1,18 @@
+## docker compose yaml for creating mysql server db host ##
+##
+## Created by Karan Chhabra (c) 10/11/2021
+
+
+version: '3'
+services:
+    db_host:                                                               ## mysql-db container service   
+        container_name: mysql-db
+        image: mysql:5.7
+        environment:
+            - "MYSQL_ROOT_PASSWORD=redhat"
+        volumes:
+            - "$PWD/db_data:/var/lib/mysql"
+        networks:
+            - net 
+networks:
+    net:
