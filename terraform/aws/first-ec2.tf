@@ -4,8 +4,8 @@
 # Terraform-AWS Authentication #
 provider "aws" {
   region = "eu-west-1"
-  access_key = "AKIA23DKPEC6CNC63OAG"
-  secret_key = "hS6iu+c4oPD/iE4BfDuFvShdNhZYkVjAC9QOeWFN"
+  access_key = "<ENTER_YOUR_ACCESS_KEY>"
+  secret_key = "<ENTER_YOUR_SECRET_KEY>"
 }
 
 # Choose resource type #
