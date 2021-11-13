@@ -58,3 +58,6 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
 1. Create your first EC2 instance using terraform
 
    **Sample TF**: `devopslearnings/terraform/aws/first-ec2.tf`
+2. Create a terraform CLI container on a centos host
+   
+   **DockerFile**: `devopslearnings/containers/terraform-cli/Dockerfile`
