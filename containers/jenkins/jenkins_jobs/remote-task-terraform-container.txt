@@ -1,0 +1,9 @@
+## Jenkins job to execute remote task on the created terraform container
+
+first_name=Karan
+last_name=Chhabra
+msg=/tmp/remote-file
+echo "Welcome to the world of containers $first_name $last_name" > $msg
+cat $msg
+cp $msg ~/
+ping -c 4 remote_host
