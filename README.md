@@ -52,3 +52,9 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
    **Script Location**: `devopslearnings/jenkins/jenkins_jobs/scripts/my-bash-script-for-dynamicParametersInjenkins.sh`
    
    **Jenkins Job Location**: `devopslearnings/jenkins/jenkins_jobs/my-bash-script-for-dynamic-parameter.txt`
+
+#### Terraform:
+
+1. Create your first EC2 instance using terraform
+
+   **Sample TF**: `devopslearnings/terraform/aws/first-ec2.tf`
