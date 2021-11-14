@@ -13,7 +13,7 @@ terraform {
 
 # Github provider authentication #
 provider "github" {
-  token = "<Please enter your github token here>"
+  token = "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"
   owner = "chhabrakaran7"
 }
 
