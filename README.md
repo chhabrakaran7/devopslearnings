@@ -57,13 +57,13 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
 
 1. Create your first EC2 instance using terraform
 
-   **Sample TF**: [Please click here for code] [PlDc]
+   **Sample TF**: [Please click here for code][PlDc]
 2. Create a terraform CLI container on a centos host
    
-   **DockerFile**: [Please click here for code] [PlDb]
+   **DockerFile**: [Please click here for code][PlDb]
 3. Create a new github repository using terraform
 
-   **Sample TF**: [Please click here for code] [PlDa]
+   **Sample TF**: [Please click here for code][PlDa]
 
 [Plda]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/providers/github/github.tf>
 [Pldb]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/container/Dockerfile>
