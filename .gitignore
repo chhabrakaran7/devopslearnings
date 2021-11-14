@@ -5,3 +5,5 @@
 .class
 *.hcl
 *.tfstate
+*.backup
+*.terraform
