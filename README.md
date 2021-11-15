@@ -65,9 +65,9 @@ Adding jenkins jobs which are created and tested over the jenkins UI created on 
 
    **Sample TF**: [Please click here for code][PlDa]
 
-[Plda]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/providers/github/github.tf>
+[Plda]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/Part%201%20-%20Deploying%20Infrastructure%20with%20terraform/providers/github/github.tf>
 [Pldb]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/container/Dockerfile>
-[Pldc]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/providers/aws/create-first-ec2-instance.tf>
+[Pldc]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/terraform/Part%201%20-%20Deploying%20Infrastructure%20with%20terraform/providers/aws/create-first-ec2-instance.tf>
 [Pldd]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/containers/jenkins/jenkins_jobs/my-jenkins-job-with-dynamic-parameter.txt>
 [Plde]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/containers/jenkins/jenkins_jobs/scripts/my-bash-script-for-dynamicParametersInjenkins.sh>
 [Pldf]: <https://github.com/chhabrakaran7/devopslearnings/blob/main/containers/jenkins/jenkins_jobs/my-first-bash-script.txt>
